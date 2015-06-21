@@ -73,7 +73,7 @@ SOFTWARE.
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <!-- In-App Billing Permission -->
-            <uses-permission android:name="com.android.vending.BILLING" />
+            <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR" />
         </config-file>
 
         <!-- Cordova >= 3.0.0 -->
